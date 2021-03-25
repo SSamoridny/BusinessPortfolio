@@ -399,7 +399,7 @@ section.home {
 
     section.home {
         flex-direction: row;
-        margin-top: 160px;
+        margin-top: 100px;
     }
 
     .toggle {
