@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
 :root{
-    --primary-color: crimson;
-    --secondary-color: #1b206e;
+    --primary-color: #48bfd4;
+    --secondary-color: rgb(73, 71, 71);
 }
 
 * {
@@ -13,8 +15,8 @@
 
 html,
 body {
-    background: rgb(233, 224, 224);
-    font-family: 'Poppins', sans-serif;
+    background: #e9e3d8;
+    font-family: 'Raleway', sans-serif;
     color: black;
 }
 
@@ -107,7 +109,7 @@ section.home {
     left: 100%;
     width: 100%;
     height: 100%;
-    background-color: rgb(233, 224, 224);
+    background-color: #e9e3d8;
     z-index: 15;
     display: flex;
     justify-content: center;
@@ -297,7 +299,7 @@ section.home {
 }
 
 .contact-form .row input[type='submit'] {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     margin: 0;
     text-transform: uppercase;
@@ -388,5 +390,19 @@ section.home {
     }
     .services .service {
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .toggle {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background: var(--primary-color) url(../images/menu.png);
+        z-index: 20;
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
     }
 }
