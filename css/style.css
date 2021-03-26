@@ -101,7 +101,6 @@ section.home {
     bottom: 0;
     right: 0;
     height: 110%;
-    
 }
 
 .navigation {
@@ -404,12 +403,15 @@ section.home {
     }
 
     .home-img {
-        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 110%;
     }
 
     .home-content {
         background: rgba(255,255,255,0.75);
-        padding: 8px;
+        padding: 10px;
     }
 
     .toggle {
