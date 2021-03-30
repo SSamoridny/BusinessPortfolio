@@ -51,27 +51,35 @@
         </div>
         <div class="contact">
             <div class="contact-form">
-                <form>
+                <form action="POST" data-netlify="true">
                     <div class="row">
                         <div class="input50">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name">
                         </div>
                         <div class="input50">
-                            <input type="text" placeholder="Last Name">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
                         </div>
                     </div>
                     <div class="row">
                         <div class="input50">
-                            <input type="text" placeholder="Email">
+                            <input type="text" name="formEmail" id="formEmail" placeholder="Email">
                         </div>
                         <div class="input50">
-                            <input type="text" placeholder="Subject">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
                         </div>
                     </div>
                     <div class="row">
                         <div class="input100">
-                            <textarea placeholder="Message"></textarea>
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="field">
+                            <input type="file" name="myFile" id="myFile" placeholder="Upload File">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
                     </div>
                     <div class="row">
                         <div class="input100">
