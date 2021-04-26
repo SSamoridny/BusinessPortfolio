@@ -452,7 +452,4 @@ section.home {
         padding: 5px;
     }
 
-    #recaptcha {
-        data-size: compact;
-    }
 }
