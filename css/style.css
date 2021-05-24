@@ -101,6 +101,9 @@ section.home {
     bottom: 0;
     right: 0;
     height: 110%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navigation {
