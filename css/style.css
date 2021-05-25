@@ -346,6 +346,10 @@ section.home {
     color: black;
 }
 
+.recaptcha {
+    width: 100%;
+}
+
 @media(max-width: 1068px) {
 
     .home-img {
@@ -458,9 +462,17 @@ section.home {
         padding: 5px;
     }
 
+    .recaptcha {
+        width: 50%;
+    }
+
     @media(max-width: 414px) {
         .contact-icon {
             display: none;
+        }
+
+        .recaptcha {
+            width: 25%;
         }
     }
 
