@@ -458,4 +458,10 @@ section.home {
         padding: 5px;
     }
 
+    @media(max-width: 414px) {
+        .contact-icon {
+            display: none;
+        }
+    }
+
 }
