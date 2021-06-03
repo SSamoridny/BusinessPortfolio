@@ -350,6 +350,14 @@ section.home {
     width: 100%;
 }
 
+.aboutUs {
+    max-width: 100%;
+    background:#48bfd4;
+    padding: 2rem;
+    color: white;
+    border-radius: 5px;
+}
+
 @media(max-width: 1068px) {
 
     .home-img {
