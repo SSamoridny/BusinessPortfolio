@@ -164,9 +164,12 @@ section.home {
 
 .navigation .social-bar a {
     display: inline-block;
-    /* transform: scale(0.5
-    ); */
-    color: white;
+    
+}
+
+.hashnode {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .navigation .email-icon {
